@@ -8,31 +8,29 @@ This is an experimental text to speech shoutbox designed to read out loud any ne
 
 There is many applications for this kind of technology, such as real time dynamic virtual online lectures.
 
+## Version list:
 
-DEMO: [ Click to enter HTML5 TTS page, works best on latest version of chrome](/shoutbox/shoutbox_TTS.html)
-
-Source Code: [/shoutbox/src/ source code folders](/shoutbox/src/)
-
-  Version list:
-  V7 - reducing polling, and ability to turn off TTS
-  V6 - Shows last updated
-  V5 - Fixed crash when not find TTS
-  V4 - Generate time elapsed since last post
-  V3 - Limit number of stored post to 100 posts.
-  V2 - Generate last updated status image
-  V1 - Start of first working shoutbox
+* V7 - reducing polling, and ability to turn off TTS
+* V6 - Shows last updated
+* V5 - Fixed crash when not find TTS
+* V4 - Generate time elapsed since last post
+* V3 - Limit number of stored post to 100 posts.
+* V2 - Generate last updated status image
+* V1 - Start of first working shoutbox
 
 This is a mish mash of various codes to make a good platform for semi real time speech synth chatroom (Which would be good for web radio etc...)
 
 Mashup of codes by Brian Khuu (briankhuu.com) 2014
 
-Usage:
+## Usage:
+
 Place these files into a properly configered php webserver in /shoutbox/ folder (script must be able to create files). Then run either shoutbox.html for a low speed shoutbox (updates every 10 sec), and shoutbox_TTS.html for a highspeed shoutbox(3 sec update) with Text To Speech of any incoming messages.
 
-Concept:
+# Concept:
+
 To possibly allow for semi-realtime conversation without having to read the messages. E.g. hosting a radio interview behind TOR
 
-USES CODES FROM:
+# USES CODES FROM:
 
 ----------
 
