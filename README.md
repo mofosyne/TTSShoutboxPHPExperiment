@@ -2,6 +2,8 @@
 
 * Brian Khuu (2014)
 
+**2020 Note: This is a very old code from 2014, it may not work now. But may be of interest to others. It was previously hosted on my personal website, but is now archived here instead. Enjoy!**
+
 This is an experimental text to speech shoutbox designed to read out loud any new messages it receives. This allows for semi-real time discussions, that can be followed without having to actively check-up on the page.
 
 There is many applications for this kind of technology, such as real time dynamic virtual online lectures.
@@ -43,6 +45,7 @@ http://updates.html5rocks.com/2014/01/Web-apps-that-talk---Introduction-to-the-S
 
 Lifted codes and styling from:
 
+```
   HTML code is very simple and comes from : http://instantchatbox.net/
 
   The licence for the javascript used above is :
@@ -56,6 +59,7 @@ Lifted codes and styling from:
 
   //@license: Feel free to use it, but keep this credits please!
   /***************************/
+```
 
 -------------------
 
