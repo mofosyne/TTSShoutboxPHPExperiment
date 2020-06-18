@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+<div id="formcontainer">
+  <form method="post" id="form" name="form" autocomplete="off">
+    <input id="nick" name="nick" type="text" maxlength="25" placeholder="Name"/>
+    <br />
+    <input id="message" name="message" type="text" maxlength="255" placeholder="Enter Message"/>
+    <br />
+	Text To Speech Enable: <input type="checkbox" id="myCheck" checked="checked">
+	<br />
+    <input id="send" class="button" type="submit" value="Send" />
+  </form>
+</div>
+
+<div id="container">
+<!-- <div class="odd" style="font-size: 11px;"><strong class="user" style="color: #36C;">InstantChatBox</strong><br />Get your own <a href="http://instantchatbox.net" target="_blank">chatroom</a></div> -->
+  <div class="content">Loading</div>
+</div>
+<div id="js">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script> //Fallback if jquery CDN fails
+	if (typeof jQuery == 'undefined') {
+		console.log('jquery CDN failed, falling back')
+		document.write(unescape("%3Cscript src='jquery-1.11.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+	}
+	</script>
+ <script type="text/javascript" src="shoutbox_TTS.js"></script>
+</div>
+
+</body>
+</html>

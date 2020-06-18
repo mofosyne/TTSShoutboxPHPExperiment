@@ -1,0 +1,55 @@
+body {
+	background: #fff;
+	font-size: 12px;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	margin: 0;
+}
+#formcontainer {
+	width: 100%;
+	overflow: hidden;
+}
+#form {
+	margin: 0;
+}
+input {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	color: #000000;
+	font-weight: bold;
+	width: 99%;
+	margin-top: 3px;
+	padding: 2px;
+}
+.button {
+	color: #000;	
+	background-color: #69F;
+}
+#container {
+	width: 100%;
+	overflow: hidden;
+}
+.shoutBoxEntry:nth-child(odd) {
+	background-color: #f9f9f9;
+	border-top: 1px solid #dddddd;
+	width: 100%;
+	padding: 3px;
+}
+.shoutBoxEntry:nth-child(even) {
+	background-color: #ffffff;
+	border-top: 1px solid #dddddd;
+	width: 100%;
+	padding: 3px;
+}
+.name {display:inline;}
+.date{display:inline;}
+.user {
+	text-decoration: underline;
+}
+.content {
+	margin: 0px;
+	font-size: 11px;
+}
+#js {
+	position: absolute;
+	top: -100px;
+}
